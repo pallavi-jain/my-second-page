@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+header, nav, footer{
+    border: 1px solid;
+}
+.left{
+    border: 1px solid;
+    width:25%;
+    float:left;
+    height: 600px;
+    background-color: rebeccapurple;
+}
+.main{
+    border: 1px solid;
+    float:left;
+    width:50%;
+    height:600px;
+}
+
+
+.right{
+    border: 1px solid;
+    float:right;
+    width:25%;
+    height:600px;
+    background-color: rebeccapurple;
+
+}
+nav ul li{
+    display: inline;
+    margin-right:15px;
+}
+
+#mainSection:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    clear:both;
+}

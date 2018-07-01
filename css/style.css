@@ -1,18 +1,32 @@
-.box{
-    width: auto;
-    
-    float:right;
-    
-    
+body{
+    width:600px;
+    margin:auto;
+}
+img{
+    width: 230px;
+    height: 210px;
+}
+ul{
+    padding: 0px;
+}
+ul li{
+    display: inline;
+    margin: 0px;
     
 }
+ul li a {
+    color: black;
+    text-decoration: none;
+}
 .wrap{
-    background-color: #e3e3e3;
-    overflow: hidden;
+    float:right;
+    width:350px;
+    background-color: red;
 }
 
 .imgBox{
     float:left;
+    margin-right:50px;
 }
 
 .clearfix::after {
